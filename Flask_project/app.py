@@ -299,5 +299,3 @@ def display_image(filename):
 
     return render_template('weed-result.html', filename="prediction.jpeg", random_query_param=random_query_param)
 # ===============================================================================================
-if __name__ == '__main__':
-    app.run(debug=True)
